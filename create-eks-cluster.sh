@@ -6,9 +6,9 @@ eksctl create cluster \
   --zones eu-north-1a,eu-north-1b \
   --nodegroup-name pr-nodes \
   --node-type m5.large \
-  --nodes 1 \
+  --nodes 2 \
   --nodes-min 1 \
-  --nodes-max 1
+  --nodes-max 2
 
 # Add another instance
 # eksctl scale nodegroup \
